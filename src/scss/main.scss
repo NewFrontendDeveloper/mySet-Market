@@ -1,0 +1,122 @@
+@import "./vendor/libs";
+@import "./base/reset";
+
+@font-face {
+    font-family: 'proximanova-regular';
+    src: url('../fonts/proximanova_regular.ttf');
+}
+
+@font-face {
+    font-family: 'proximanova-bold';
+    src: url('../fonts/proximanova_bold.otf');
+}
+
+$color: #301410;
+
+body {
+    font-family: 'proximanova-regular';
+}
+
+header {
+    hr {
+        background-color: #F4EFE9;
+    }
+
+    .header-top {
+        font-size: 0.875rem;
+        padding: 0.9375rem;
+        background-color: #F8E8D8;
+
+        .hContacts {
+            &__link {
+                text-decoration: none;
+                color: $color;
+            }
+
+            &__item {
+                margin-right: 1.5rem;
+            }
+        }
+    }
+
+    .inner-header {
+
+        .logo {
+            &__img {
+                width: 9.9375rem;
+                height: 2.6713rem;
+                margin: 0.625rem;
+            }
+        }
+
+        .inner-menu {
+            margin-left: 1.25rem;
+
+            &__link {
+                text-decoration: none;
+                color: $color;
+                padding: 0.625rem;
+            }
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        &__input {
+            padding: 0.9375rem;
+            height: 3.125rem;
+            border: #F4EFE9 1px solid;
+            border-radius: 2.3125rem;
+            width: 100%;
+            outline: none;
+        }
+
+        &__btn {
+            background: #F8E8D8;
+            border-radius: 2.3125rem;
+            height: 2.9375rem;
+            border: none;
+            width: 3.9375rem;
+            position: absolute;
+            right: 0%;
+        }
+
+        &__nav {
+            padding: 0px 0.625rem 0px 0.625rem;
+            margin-left: 1.25rem;
+        }
+
+        .nav-right {
+            &__icon {
+                margin: 0.625rem;
+            }
+        }
+    }
+
+    .menu {
+        &__link {
+            text-decoration: none;
+            color: $color;
+            padding: 0.625rem;
+        }
+
+        &__item {
+            margin-right: 3.625rem;
+        }
+    }
+
+    .hbMenu {
+        &__item {
+            margin-right: 1.625rem;
+        }
+    }
+}
+
+/* .header__top {
+    color: #F8E8D8;
+
+    
+} */
