@@ -8,12 +8,226 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/blocks/section-offers.css">
+    <link rel="stylesheet" href="/css/blocks/assortment.css">
+    <link rel="stylesheet" href="/css/blocks/cSlider.css">
     <title>Gulp</title>
 </head>
 @@include('blocks/header.html')
 
 <body>
-    Привет мир!
+    <div class="section-offers pt-5">
+        <div class="container">
+            <div class="cSection">
+                <div class="row cSection__tRow">
+                    <div class="cSection__items col-md-6 mb-4 ctItem">
+                        <div class="ctItem__infoblock">
+                            <div class="wrapper-img">
+                                <img src="/img/infoblock/01.jfif" alt="" class="ctInfo__img img-fluid">
+                                <div class="ctInfo__wrapper-text1 container-fluid">
+                                    <p class="ctInfo__text">Комфорт и</p>
+                                    <p class="ctInfo__text big-text">СТИЛЬ</p>
+                                    <p class="ctInfo__text">Выбери свою идеальную пару уже сегодня</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cSection__items col-md-6 ctItem">
+                        <div class="ctItem__infoblock">
+                            <div class="wrapper-img">
+                                <img src="/img/infoblock/02.jfif" alt="" class="ctInfo__img img-fluid">
+                                <div class="ctInfo__wrapper-text2 container-fluid">
+                                    <p class="ctInfo__text big-text">УВЕРЕННОСТЬ</p>
+                                    <p class="ctInfo__text">Удобство и красота в каждой паре! Большой выбор<br /> обуви
+                                        для
+                                        всех возрастов</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row cSection-bRow">
+                    <div class="cSection__item col-md-4 mb-4 cbItem">
+                        <div class="cbItem__infoblock">
+                            <div class="wrapper-img">
+                                <img src="/img/infoblock/03.jfif" alt="" class="cbInfo__img img-fluid">
+                                <p class="cbInfo__text">Скидки до 40%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cSection__item col-md-4 mb-4 cbItem">
+                        <div class="cbItem__infoblock">
+                            <div class="wrapper-img">
+                                <img src="/img/infoblock/04.jfif" alt="" class="cbInfo__img img-fluid">
+                                <p class="cbInfo__text">Скидки до 40%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cSection__item col-md-4 cbItem">
+                        <div class="cbItem__infoblock">
+                            <div class="wrapper-img">
+                                <img src="/img/infoblock/05.jfif" alt="" class="cbInfo__img img-fluid">
+                                <p class="cbInfo__text">Скидки до 40%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="assortment pt-5 pb-5">
+        <nav class="assortment__nav mNav">
+            <ul class="mNav__list d-flex justify-content-center">
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Кеды и кроссовки</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Полуботинки</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Кеды и кроссовки</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Босаножки</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Лоферы</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Сабо</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Сандалии</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Кеды и кроссовки</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Босаножки</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Лоферы</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Туфли</a>
+                </li>
+                <li class="mNav__item">
+                    <a href="#" class="mNav__link">Туфли</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="section">
+        <div class="container">
+            <h2 class="title pt-5 pb-3">Новинки</h2>
+            <div class="watch-all d-flex justify-content-center">
+                <button class="watch-all__btn">Смотреть все</button>
+            </div>
+            <div class="cSlider">
+                <div class="cSlider__cont swiper">
+                    <div class="cSlider__content">
+                        <div class="cSlider__wrapper swiper-wrapper">
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="card__image-content">
+                                    <div class="cards__image-cont img-fluid">
+                                        <img src="/img/cSlider__cards/01.jpg" alt="products" class="cards__image">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="cards__image-content">
+                                    <div class="cards__image-cont">
+                                        <img src="/img/cSlider__cards/02.jpg" alt="products"
+                                            class="cards__image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="cards__image-content">
+                                    <div class="cards__image-cont">
+                                        <img src="/img/cSlider__cards/03.png" alt="products"
+                                            class="cards__image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="cards__image-content">
+                                    <div class="cards__image-cont">
+                                        <img src="/img/cSlider__cards/01.jpg" alt="products"
+                                            class="cards__image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="cards__image-content">
+                                    <div class="cards__image-cont">
+                                        <img src="/img/cSlider__cards/01.jpg" alt="products"
+                                            class="cards__image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="cards__image-content">
+                                    <div class="cards__image-cont">
+                                        <img src="/img/cSlider__cards/01.jpg" alt="products"
+                                            class="cards__image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                            <div class=".cSlider__card cards swiper-slide">
+                                <div class="cards__image-content">
+                                    <div class="cards__image-cont">
+                                        <img src="/img/cSlider__cards/01.jpg" alt="products"
+                                            class="cards__image img-fluid">
+                                    </div>
+                                </div>
+                                <div class="cards__content">
+                                    <p class="cards__articul pb-2">арт.0121566323</p>
+                                    <p class="cards__title">Лоферы из натуральной кожи</p>
+                                    <p class="cards__price">13 000 ₽ </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cSlider__navigation">
+                            <div class="swiper-button-next swiper-navBtn"></div>
+                            <div class="swiper-button-prev swiper-navBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -25,6 +239,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="./js/cSlider.bundle.js"></script>
 </body>
 @@include('blocks/footer.html')
 

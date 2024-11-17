@@ -1,0 +1,83 @@
+$navColor: #260B00;
+
+.cSlider {
+    &__cont {
+        max-width: 1420px;
+        // background-color: red;
+        width: 100%;
+        padding: 40px 0;
+    }
+}
+
+.watch-all {
+    &__btn {
+        border: none;
+        background: none;
+        color: #66342D;
+    }
+}
+
+.cards {
+    cursor: pointer;
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        border-radius: none;
+    }
+
+    &__articul {
+        color: #9D9B9B;
+        padding-bottom: 5px;
+    }
+
+    &__title {
+        color: #000000;
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    &__price {
+        font-size: 18px;
+        color: #D92322;
+    }
+
+    &__navigation {
+        position: relative;
+    }
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.swiper-navBtn {
+    color: $navColor;
+    position: absolute !important;
+}
+
+
+.swiper-pagination-bullet {
+    background-color: #F8E8D8;
+    opacity: 1;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: $navColor;
+    margin-right: 24px !important;
+}
+
+.swiper-pagination-bullet-active::after {
+    content: " ";
+    height: 2px;
+    width: 15px;
+    background: $navColor;
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: -20px;
+}

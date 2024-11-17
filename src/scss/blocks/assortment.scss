@@ -1,0 +1,21 @@
+@import "../vendor/libs";
+
+.mNav {
+    &__list {
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        background-color: #F8E8D8;
+        padding: 1.25rem;
+        border-radius: 2.3125rem;
+        margin: 0.625rem;
+        cursor: pointer;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #301410;
+
+    }
+}

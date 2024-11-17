@@ -1,8 +1,7 @@
 const config = {
 	mode: 'production',
 	entry: {
-		index: './src/js/index.js',
-		contacts: './src/js/contacts.js',
+		cSlider: './src/js/cSlider.js'
 		// about: './src/js/about.js',
 	},
 	output: {

@@ -15,9 +15,16 @@ $color: #301410;
 
 body {
     font-family: 'proximanova-regular';
+    color: $color;
+
+    .title {
+        text-align: center;
+        font-size: 38px;
+    }
 }
 
 header {
+
     hr {
         background-color: #F4EFE9;
     }
